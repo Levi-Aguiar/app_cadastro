@@ -69,7 +69,7 @@ export default function ListarPet({ navigation }: any) {
       <ScrollView contentContainerStyle={{ padding: 16, gap: 16 }}>
 
         <Text style={{ fontSize: 22, fontWeight: "700" }}>
-          Lista de Pets 🐾
+          Lista de Pets
         </Text>
 
         <Pressable
