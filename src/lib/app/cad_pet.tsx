@@ -43,7 +43,7 @@ async function handleAddPet() {
       nome,
       tipo,
       idade,
-      user: user.email, // 👈 AQUI ESTÁ O SEGREDO
+      user: user.email,
       createdAt: serverTimestamp()
     });
 
@@ -68,7 +68,7 @@ async function handleAddPet() {
       <ScrollView contentContainerStyle={{ padding: 16, gap: 16 }}>
         
         <Text style={{ fontSize: 22, fontWeight: "700" }}>
-          Cadastro de Pet 🐶
+          Cadastro de Pet
         </Text>
 
         <View style={{

@@ -94,7 +94,7 @@ export default function ListarPet({ navigation }: any) {
                 padding: 10
               }}
             >
-              <Text>🐶 Nome: {pet.nome}</Text>
+              <Text>Nome: {pet.nome}</Text>
               <Text>Tipo: {pet.tipo}</Text>
               <Text>Idade: {pet.idade}</Text>
             </View>
